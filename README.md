@@ -147,7 +147,7 @@ The [SmallRye ACP client](https://github.com/smallrye/smallrye-acp-client) can r
 Install the ACP CLI:
 
 ```bash
-jbang app install --name acp io.smallrye.ai:acp-java-client:0.1.1:runner
+jbang app install --name acp io.smallrye.ai:acp-java-client:0.2.1:runner
 ```
 
 Then run an ACP agent with Quarkus Agent MCP over stdio:
