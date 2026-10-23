@@ -150,7 +150,13 @@ Install the ACP CLI:
 jbang app install --name acp io.smallrye.ai:acp-java-client:0.2.1:runner
 ```
 
-Then run an ACP agent with Quarkus Agent MCP over stdio:
+Install an ACP agent from the registry (for example Claude Code):
+
+```bash
+acp registry install claude-acp
+```
+
+Then run the agent with Quarkus Agent MCP over stdio:
 
 ```bash
 acp run -a claude-acp \
